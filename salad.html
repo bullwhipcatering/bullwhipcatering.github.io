@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sides & Salads</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+
+    <style>  /* all things */
+        body, html {
+            margin: 0rem;
+            height: 80vh;
+            font-family: 'Special Elite', cursive;
+        }
+    </style>
+    <style>  /* MENU NAV */
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background-color: gold;
+
+            font-family: 'Roboto Slab', serif;
+        }
+        a.nav_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.nav_link:hover {
+            font-weight: bold;
+        }
+    </style>
+    <style>  /* LOGO */
+        img {
+            width: 100%;
+        }
+    </style>
+    <style>  /* VERTICAL NAV BUTTON */
+        .grid_container {
+            margin: 1rem;
+            background-color: white;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 1.8fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            height: 100%;
+        }
+        .content {
+            background-color: rgb(90, 61, 10);
+            border: none;
+            background-color: rgba(83, 70, 0, 0.07);
+            border-radius: 10px;
+            grid-row: 1/10;
+            grid-column: 2/3;
+            padding: 2rem;
+            text-align: center;
+        }
+        .nav {
+            background-color: white;
+            grid-row: 1/10;
+            grid-column: 1/2;
+
+            font-family: 'Reem Kufi Ink', sans-serif;
+        }
+        a.vertical_nav_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.vertical_nav_link:hover {
+            font-weight: bold;
+        }
+        .one {
+            background-color: white;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .two {
+            background-color: white;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .three {
+            background-color: white;
+            grid-row: 3/4;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .four {
+            background-color: white;
+            grid-row: 4/5;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .five {
+            background-color: white;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .six {
+            background-color: white;
+            grid-row: 6/7;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .seven {
+            background-color: white;
+            grid-row: 7/8;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .eight {
+            background-color: white;
+            grid-row: 8/9;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nine {
+            background-color: white;
+            grid-row: 9/10;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+    <style>  /* scrollbar  */
+        /* width */
+        ::-webkit-scrollbar {
+        width: 10px;
+        }
+        /* Track */
+        ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+        }
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: rgb(212, 132, 46); 
+        }
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: rgb(114, 74, 9); 
+        }
+    </style>
+    <style>  /* THE MENU */    
+        h1, h1.extras, p, p.title, h4, h5, p, i, li {
+            font-family: 'Special Elite', cursive;
+        }
+
+        p.title {
+            font-size: 1.5rem;
+        }
+
+        .trail_boss {
+            background-color: white;
+
+            /* the menu is off center in bow without this: */
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 1/2;
+            text-align: center;
+
+            /* center the content within the box */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ranch_hand {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 2/3;
+            text-align: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wild_cat {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 3/4;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cattle_drive {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 4/5;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .homesteader {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 5/6;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tex_mex_fiesta {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 6/7;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .picnic_in_the_park {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 7/8;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .camp_cookout {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 8/9;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chuck_wagon {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 9/10;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .choices {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 10/11;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .appetizer {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 11/12;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .beverage {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 12/13;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dessert {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 13/14;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+    </style>
+     <style>  /* SEASONING */
+        .seasoning {
+            background-color: rgb(255, 221, 31);
+            text-align: center;
+            padding: 1rem;
+
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+        }
+        a.season_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.season_link:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div><!--MENU NAV-->
+        <nav>
+            <a class="nav_link" href="./beverage.html">BEVERAGE</a>
+            <a class="nav_link" href="./appetizer.html">APPETIZER</a>
+            <a class="nav_link" href="./main_courses.html">MAIN COURSE</a>
+            <a class="nav_link" href="./sides_salads.html">SIDE & SALAD</a>
+            <a class="nav_link" href="./dessert.html">DESSERT</a>
+        </nav>
+    </div>
+
+    <div><!--LOGO-->
+        <img src="/banner_transp.svg" alt="">
+    </div>
+
+    <div class="grid_container">  <!--VERTICAL NAV BUTTON-->
+
+        <div class="nav">
+            <div class="one">
+                <a class="vertical_nav_link" href="./side.html">Side(s)</a>
+            </div>
+            <div class="two">
+                <a class="vertical_nav_link" href="./salad.html">Salad</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="choices">
+                <menu>
+                    <h1 class="extras">Salad</h1>
+                    <div class="choices_describe">
+                    </div>
+        
+                    <div class="choices_salad">
+                        <!-- <h4>Salad</h4> -->
+                        <ul>
+                            <li>Garden Salad with Selected dressings</li>
+                            <br>
+                            <li>Country Style Potato Salad</li>
+                            <br>
+                            <li>Chipotle Western Style Macaroni Salad</li>
+                            <br>
+                            <li>Platte River Creamy Coleslaw</li>
+                            <br>
+                            <li>Fresh Fruit Cream Salad</li> 
+                        </ul>
+                    </div>
+                </menu>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="seasoning">  
+        <a class="season_link" href="./seasoning.html">Get Your Very Own Bullwhip Western Style Seasoning!</a>
+    </div><!--SEASONING-->
+</body>
+</html>

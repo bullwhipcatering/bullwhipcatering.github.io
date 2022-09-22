@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Special Elite-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Special Elite-->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"><!--Special Elite-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Roboto Slab-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Roboto Slab-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"><!--Roboto Slab-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Reem Kufi Ink-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Reem Kufi Ink-->
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet"><!--Reem Kufi Ink-->
+
+    <style>  /* all things */
+        body, html {
+           margin: 0rem;
+           height: 80vh;
+           font-family: 'Special Elite', cursive;
+       }  
+   </style>
+
+    <style>  /* MENU NAV */
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background-color: gold;
+
+            font-family: 'Roboto Slab', serif;
+        }
+        a.nav_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.nav_link:hover {
+            font-weight: bold;
+        }
+    </style>
+
+    <style>  /* SEASONING */
+        .seasoning {
+            background-color: rgb(255, 221, 31);
+            text-align: center;
+            padding: 1rem;
+
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+        }
+        a.season_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.season_link:hover {
+            font-weight: bold;
+        }
+    </style>
+
+    <style>  /* GRID CONTAINER */
+        .grid-container {
+            display: grid;
+            height: 50vh;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
+        }
+        .seasoning_sale {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-color: none;
+            text-align: center;
+            padding: 1rem;
+        }
+        img.seasons {
+            width: 20%;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+    </style>
+    
+    <style>  /* PHONE */
+        .phone {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div><!--MENU NAV-->
+        <nav>
+            <a class="nav_link" href="./beverage.html">BEVERAGE</a>
+            <a class="nav_link" href="./appetizer.html">APPETIZER</a>
+            <a class="nav_link" href="./main_courses.html">MAIN COURSE</a>
+            <a class="nav_link" href="./sides_salads.html">SIDE & SALAD</a>
+            <a class="nav_link" href="./dessert.html">DESSERT</a>
+        </nav>
+    </div>
+
+    <div><!--logo button-->
+        <a href="./index.html"><img src="/banner_transp.svg" alt="" style="width:100%;height:100%;"></a>
+    </div>
+
+    <div class="grid-container"><!--GRID CONTAINER-->
+        <div class="seasoning_sale">
+            <h1>Bullwhip Western Style Seasoning</h1>
+
+            <img class="seasons" src="./seasons.png" alt="">
+
+            <h3>Call 
+                <a class="phone" href="tel:1-307-253-7585">
+                    (307) 253-7585
+                </a> for Current Price
+            </h3>
+        </div>
+    </div>
+
+    <div class="seasoning">  
+        <a class="season_link" href="./seasoning.html">Get Your Very Own Bullwhip Western Style Seasoning!</a>
+    </div><!--SEASONING-->
+</body>
+</html>
