@@ -43,6 +43,7 @@
             font-size: 1.1em;
         }
     </style>
+    <!--placeholder for logo button-->
     <style>  /* CONTACT */
         .contact {
             background-color: white;
@@ -76,53 +77,6 @@
         }
         a.nav_link:hover {
             font-weight: bold;
-        }
-    </style>
-    <style>  /* CONTAINER */
-        .grid-container-home {
-            display: grid;
-            margin: 0rem;
-            grid-template-columns: 1.3fr 1.5fr 1.5fr;
-            grid-template-rows: 1fr;
-            height: 70vh;
-        }
-        .seasoning_section {
-            background-color: white;
-            grid-column: 1/2;
-            grid-row: 1/2;
-            text-align: center;
-        }
-        img.front-page {
-            width: 45%;
-        }
-        .instagram_section {
-            background-color: rgb(255, 255, 255);
-            grid-column: 2/3;
-            grid-row: 1/2;
-            text-align: center;
-        }
-        .facebook_section {
-            background-color: rgb(255, 255, 255);
-            grid-column: 3/4;
-            grid-row: 1/2;
-            width: 500px;
-        }
-    </style>
-    <style>  /* FOOTER */
-        .footer {
-            margin: auto;
-            text-align: center;
-            width: 100%;
-            padding: 10px;
-        }
-        .cards {
-            width: 30%;
-        }
-    </style>
-    <style>  /* Bottom Spacing */
-        .payments {
-            width: 50%;
-            text-align: center;
         }
     </style>
     <style> /* AUTO SLIDESHOW */
@@ -189,6 +143,56 @@
         .text {font-size: 11px}
         }
     </style>
+
+    <style>  /* FOOTER */
+        .footer {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+        }
+        .cards {
+            width: 30%;
+        }
+    </style>
+    <style>  /* Bottom Spacing */
+        .payments {
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+
+    <!--two styles below are not currently used-->
+    <style>  /* CONTAINER */
+        .grid-container-home {
+            display: grid;
+            margin: 0rem;
+            grid-template-columns: 1.3fr 1.5fr 1.5fr;
+            grid-template-rows: 1fr;
+            height: 70vh;
+        }
+        .seasoning_section {
+            background-color: white;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            text-align: center;
+        }
+        img.front-page {
+            width: 45%;
+        }
+        .instagram_section {
+            background-color: rgb(255, 255, 255);
+            grid-column: 2/3;
+            grid-row: 1/2;
+            text-align: center;
+        }
+        .facebook_section {
+            background-color: rgb(255, 255, 255);
+            grid-column: 3/4;
+            grid-row: 1/2;
+            width: 500px;
+        }
+    </style>
     <style>  /* SEASONING */
         .seasoning {
             background-color: rgb(255, 255, 255);
@@ -221,22 +225,23 @@
 </head>
 <body>
 
-    <div class="seasoning_ad">  <!--SEASONING AD-->
-        Bullwhip Western Style Seasoning
-        <a class="season_ad" href="./seasoning.html"><i>We'll Ship it to You!</i></a>
+    <div>  <!--SEASONING AD-->
+        <div class="seasoning_ad">
+            Bullwhip Western Style Seasoning
+            <a class="season_ad" href="./seasoning.html"><i>We'll Ship it to You!</i></a>
+        </div>
     </div>
-
     <div>  <!--logo button-->
         <a href="./index.html"><img src="/banner_transp.svg" alt="" style="width:100%;height:100%;"></a>
     </div>
-
-    <div class="seasoning"> <!-- CONTACT --> 
-        <a class="contact_link" href="tel:1-307-253-7585"><b>(307) 253-7585</b></a>
-            | 
-        <a class="contact_link" href="mailto:info@bullwhipcatering.com">info@bullwhipcatering.com</a>
+    <div>  <!-- CONTACT --> 
+        <div class="seasoning">
+            <a class="contact_link" href="tel:1-307-253-7585"><b>(307) 253-7585</b></a>
+                | 
+            <a class="contact_link" href="mailto:info@bullwhipcatering.com">info@bullwhipcatering.com</a>
+        </div>
     </div>
-
-    <div><!--MENU NAV-->
+    <div>  <!--MENU NAV-->
         <nav>
             <a class="nav_link" href="./index.html">HOME</a>
             <a class="nav_link" href="./main_courses.html">CATERING</a>
@@ -244,7 +249,6 @@
             <a class="nav_link" href="./seasoning.html">SEASONING</a>
         </nav>
     </div>
-
     <div>  <!--AUTO SLIDESHOW-->    
         <div class="slideshow-container">
         
@@ -296,8 +300,7 @@
           <span class="dot"></span>  <!--six-->
         </div>
     </div>
-
-    <div><!--FOOTER-->
+    <div>  <!--FOOTER-->
         <footer class="footer">
             <br><br>
             <div><!--phonebook-->
@@ -313,7 +316,7 @@
         </footer>
     </div>
     
-    <script>/* AUTO SLIDESHOW */
+    <script>  /* AUTO SLIDESHOW */
         let slideIndex = 0;
         showSlides();
         
