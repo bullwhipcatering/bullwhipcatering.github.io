@@ -29,14 +29,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <style>  /* all things */
+    <style>  /* all things */i
         body, html {
             background-color: black;
             margin: 0rem;
             height: 80vh;
             /* font-family: 'Special Elite', cursive; */
-            font-family: 'Reem Kufi Ink', sans-serif;
+            /* font-family: 'Reem Kufi Ink', sans-serif; */
        }  
+   </style>
+   <style>  /* max-width */
+        .max-width {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
    </style>
     <style>  /* SEASONING AD */
         .seasoning_ad {
@@ -59,10 +66,8 @@
     </style>
     <style>    /* white background for logo button */
         .white {
-            background: white;
-        }
+            background: white; /* otherwise the mountains would be black */        }
     </style>
-
     <style>  /* CONTACT */
         .contact {
             background-color: white;
@@ -73,18 +78,16 @@
         a.contact_link {
             text-decoration: none;
             color: black;
-            font-family: 'Montserrat', sans-serif;
         }
         a.contact_link:hover {
             font-size: larger;
-            font-family: 'Montserrat', sans-serif;
         }
     </style>
     <style>  /* MENU NAV */
         nav {
             text-align: center;
             padding: .5rem;
-            background-color: orange;
+            background-color: rgb(225, 146, 0);
             /* background-color: rgb(250, 218, 34); */
 
             font-family: 'Roboto Slab', serif;
@@ -275,9 +278,9 @@
         <div>  <!--MENU NAV-->
             <nav>
                 <a class="nav_link" href="./index.html">HOME</a>
+                <a class="nav_link" href="./seasoning.html">SEASONING</a>
                 <a class="nav_link" href="./main_courses.html">CATERING</a>
                 <a class="nav_link" href="./about_us.html">ABOUT US</a>
-                <a class="nav_link" href="./seasoning.html">SEASONING</a>
             </nav>
         </div>
         <div>  <!--AUTO SLIDESHOW-->    
@@ -347,7 +350,6 @@
         </div>
     </div>
 
-    
     <script>  /* AUTO SLIDESHOW */
         let slideIndex = 0;
         showSlides();
