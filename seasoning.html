@@ -38,21 +38,6 @@
         .white {
             background: white; /* otherwise the mountains would be black */        }
     </style>
-    <style>  /* CONTACT */
-        .contact {
-            background-color: white;
-            color: black;
-            text-align: right;
-            padding: 1rem;
-            font-family: 'Montserrat', sans-serif;        }
-        a.contact_link {
-            text-decoration: none;
-            color: black;
-        }
-        a.contact_link:hover {
-            font-size: larger;
-        }
-    </style>
     <style>  /* MENU NAV */
         nav {
             text-align: center;
@@ -194,8 +179,9 @@
 
     <style>  /* GRID CONTAINER */
         .grid-container {
+            background-color: white;
             display: grid;
-            height: 50vh;
+            height: 100vh;
             grid-template-columns: 1fr 3fr 1fr;
             grid-template-rows: 1fr 2fr 1fr;
         }
@@ -207,14 +193,14 @@
             padding: 1rem;
         }
         img.seasons {
-            width: 20%;
+            width: 40%;
         }
         h1, h3 {
             text-align: center;
         }
     </style>
     
-    <style>  /* PHONE */
+    <style>  /* phone */
         .phone {
             text-decoration: none;
         }
@@ -228,13 +214,6 @@
                 <a href="./index.html"><img src="/banner_transp.svg" alt="" style="width:100%;height:100%;"></a>
             </div>
         </div>
-        <div>  <!-- CONTACT --> 
-            <div class="seasoning">
-                <a class="contact_link" href="tel:1-307-253-7585"><b>(307) 253-7585</b></a>
-                    | 
-                <a class="contact_link" href="mailto:info@bullwhipcatering.com">info@bullwhipcatering.com</a>
-            </div>
-        </div>
         <div>  <!--MENU NAV-->
             <nav>
                 <a class="nav_link" href="./index.html">HOME</a>
@@ -242,6 +221,23 @@
                 <a class="nav_link" href="./main_courses.html">CATERING</a>
                 <a class="nav_link" href="./about_us.html">ABOUT US</a>
             </nav>
+        </div>
+        <div class="grid-container"><!--GRID CONTAINER-->
+            <div class="seasoning_sale">
+                <h1>Bullwhip Western Style Seasoning</h1>
+
+                <h5 class="seasons">You'll Never Cook Without it!</h5>
+    
+                <img class="seasons" src="./seasons.png" alt="">
+    
+                <h3>Call 
+                    <a class="phone" href="tel:1-307-253-7585">
+                        (307) 253-7585
+                    </a> for Current Price
+                </h3>
+                <h4 class="seasons"><em>We'll Ship it to You!</em></h4>
+                <br>
+            </div>
         </div>
         <div>  <!--FOOTER-->
             <footer class="footer">
@@ -255,37 +251,12 @@
                 <div><!--payment methods-->
                     <img class="cards" src="/4cards.png" alt="accepted payments: visa, mastercard, american express, discover">
                 </div>
+                <br><br><br><br><br>
             </footer>
         </div>
         <div class="seasoning">  
             <a class="season_link" href="./seasoning.html">Get Your Very Own Bullwhip Western Style Seasoning!</a>
         </div><!--SEASONING-->
-    </div>
-
-    <div class="grid-container"><!--GRID CONTAINER-->
-        <div class="seasoning_sale">
-            <h1>Bullwhip Western Style Seasoning</h1>
-
-            <img class="seasons" src="./seasons.png" alt="">
-
-            <h3>Call 
-                <a class="phone" href="tel:1-307-253-7585">
-                    (307) 253-7585
-                </a> for Current Price
-            </h3>
-        </div>
-    </div>
-    <div class="grid-container-home">
-
-        <div class="seasoning_section">
-            <h3 class="season">Bullwhip Western Style Seasoning</h3>
-            <h4 class="season"><em>We'll Ship it to You!</em></h4>
-            <img class="front-page" src="./seasons.png" alt="">
-            <br>
-            <h5>You'll Never Cook Without it!</h5>
-            <h6 class="season">Call <a class="contact_link" href="tel:1-307-253-7585"><b>(307) 253-7585</b></a> for Current Pricing</h6>
-            
-        </div>
     </div>
 
 </body>
