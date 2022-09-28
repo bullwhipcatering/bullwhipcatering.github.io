@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+
+    <style>  /* MENU EATS NAV */
+        nav.menu_eats_nav {
+            background-color: gold;
+        }
+    </style>
+    <style>  /* VERTICAL NAV BAR */
+        .grid_container {
+            margin: 0em;
+            background-color: white;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 1.8fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            height: 100%;
+        }
+        .content {
+            background-color: rgb(90, 61, 10);
+            border: none;
+            background-color: rgba(83, 70, 0, 0.07);
+            border-radius: 10px;
+            grid-row: 1/10;
+            grid-column: 2/3;
+            padding: 2rem;
+            text-align: center;
+        }
+        .nav {
+            background-color: white;
+            grid-row: 1/10;
+            grid-column: 1/2;
+
+            font-family: 'Reem Kufi Ink', sans-serif;
+        }
+        a.vertical_nav_link {
+            padding: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a.vertical_nav_link:hover {
+            font-weight: bold;
+        }
+        .one {
+            background-color: white;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .two {
+            background-color: white;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .three {
+            background-color: white;
+            grid-row: 3/4;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .four {
+            background-color: white;
+            grid-row: 4/5;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .five {
+            background-color: white;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .six {
+            background-color: white;
+            grid-row: 6/7;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .seven {
+            background-color: white;
+            grid-row: 7/8;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .eight {
+            background-color: white;
+            grid-row: 8/9;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nine {
+            background-color: white;
+            grid-row: 9/10;
+            grid-column: 1/2;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+    <style>  /* THE MENU */    
+        h1, h1.extras, p, p.title, h4, h5, p, i, li {
+            font-family: 'Special Elite', cursive;
+        }
+
+        p.title {
+            font-size: 1.5rem;
+        }
+
+        .trail_boss {
+            background-color: white;
+
+            /* the menu is off center in bow without this: */
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 1/2;
+            text-align: center;
+
+            /* center the content within the box */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ranch_hand {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 2/3;
+            text-align: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wild_cat {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 3/4;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cattle_drive {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 4/5;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .homesteader {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 5/6;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tex_mex_fiesta {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 6/7;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .picnic_in_the_park {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 7/8;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .camp_cookout {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 8/9;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chuck_wagon {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 9/10;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .choices {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 10/11;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .appetizer {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 11/12;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .beverage {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 12/13;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dessert {
+            background-color: white;
+
+            padding-right: 3rem;
+
+            grid-column: 2/3;
+            grid-row: 13/14;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-width">
+
+        <div>  <!--SEASONING AD-->
+            <div class="seasoning_ad">
+                Bullwhip Western Style Seasoning
+                <a class="season_ad" href="./seasoning.html"><i>We'll Ship it to You!</i></a>
+            </div>
+        </div>
+        <div>  <!--logo button-->
+            <div class="white">
+                <a href="./index.html"><img src="/2_IMAGES/SVG/banner_transp.svg" alt="" style="width:100%;height:100%;"></a>
+            </div>
+        </div>
+        <div>  <!-- CONTACT --> 
+            <div class="seasoning">
+                <a class="contact_link" href="tel:1-307-253-7585"><b>(307) 253-7585</b></a>
+                    | 
+                <a class="contact_link" href="mailto:info@bullwhipcatering.com">info@bullwhipcatering.com</a>
+                <a href="#"><img src="/2_IMAGES/PNG/social_media_icons/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="/2_IMAGES/PNG/social_media_icons/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+
+        <br><br><br>
+        <div>  <!--MENU NAV-->
+            <nav>
+                <a class="nav_link" href="/4_NAV/index.html">HOME</a>
+                <a class="nav_link" href="/4_NAV/seasoning.html">SEASONING</a>
+                <a class="nav_link" href="/4_NAV/catering.html">CATERING</a>
+                <a class="nav_link" href="/4_NAV/about_us.html">ABOUT US</a>
+            </nav>
+        </div>
+
+        <br><br><br>
+        <div>  <!-- *** MENU EATS NAV-->
+            <nav class="menu_eats_nav">
+                <a class="nav_link" href="/CATERING/menu.html">MENU</a>
+                <a class="nav_link" href="/CATERING/extras.html">EXTRAS</a>
+            </nav>
+        </div>
+
+        <br><br><br>
+        <div class="grid_container">  <!--VERTICAL NAV BUTTONS-->
+
+            <div class="nav">
+                <div class="one">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/trailboss.html">Trail Boss</a>
+                </div>
+                <div class="two">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/ranchhand.html">Ranch Hand</a>
+                </div>
+                <div class="three">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/wildcat.html">Wild Cat</a>
+                </div>
+                <div class="four">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/cattledrive.html">Cattle Drive</a>
+                </div>
+                <div class="five">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/homesteader.html">Homesteader</a>
+                </div>
+                <div class="six">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/texmexfiesta.html">Tex Mex Fiesta</a>
+                </div>
+                <div class="seven">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/picnicinthepark.html">Picnic in the Park</a>
+                </div>
+                <div class="eight">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/campcookout.html">Camp Cookout</a>
+                </div>
+                <div class="nine">
+                    <a class="vertical_nav_link" href="/CATERING/MENU/chuckwagon.html">Chuck Wagon</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="trail_boss" id="main_courses">
+                    <menu>
+        
+                        <h1>Trail Boss</h1>
+        
+                        <hr>
+        
+                        <h5><em>(Surf and Turf Available)</em></h5>
+        
+                        <p class="title">
+                            USDA Choice Char Broiled Rib Eye Steaks 
+                        </p>
+        
+                        <p>
+                            <em>Fresh Rolls, Butter and Horseradish Sauce Included</em>
+                        </p>
+        
+                        <li>
+                            <div class="trail_boss_side">
+                                <p>Choice of Two Sides</p>
+                            </div>  
+            
+                            <div class="trail_boss_salad">
+                                <p>Choice of One Salad</p>
+                            </div>
+                        </li>
+        
+                    </menu>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <div>  <!--FOOTER-->
+            <footer class="footer">
+                <div><!--phonebook-->
+                    <address type="address">P.O. Box 322 Casper, WY 82602-0327</address>
+                    <address type="phone">(307) 253-7585</address>
+                    <address type="email">Email: info@bullwhipcatering.com</address>
+                </div>
+                <br>
+                <div><!--payment methods-->
+                    <img class="payments" src="/2_IMAGES/PNG/payments/4cards.png" alt="accepted payments: visa, mastercard, american express, discover">
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
