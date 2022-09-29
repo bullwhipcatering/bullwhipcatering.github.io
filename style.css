@@ -80,7 +80,7 @@ body, html {
 a.season_ad {
     color: rgb(88, 144, 28);
     text-decoration: none;
-    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Bebas Neue', cursive;
 }
 a.season_ad:hover {
     font-weight: bold;
@@ -393,7 +393,7 @@ a.vertical_nav_link:hover {
     padding: 2rem;
     text-align: center;
 }
-h1, h1.extras, p, p.title, h4, h5, p, i, li {
+h1, h1.extras, p, p.title, h4, h5, p, li {
     font-family: 'Special Elite', cursive;
 }
 
