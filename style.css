@@ -299,6 +299,10 @@ button.title {
 }
 .center {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+pre.aubout_us {
+    text-align: center;
 }
 
 /* -----------------------------------___MENU / EXTRAS___ */
