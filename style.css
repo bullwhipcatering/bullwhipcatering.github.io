@@ -301,6 +301,9 @@ button.title {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
+p.about_us {
+    margin: 1rem;
+}
 
 /* -----------------------------------___MENU / EXTRAS___ */
 /* ---------------------------------------------------------VERTICAL NAV BAR */
