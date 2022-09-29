@@ -60,10 +60,10 @@ body, html {
     background: #000000; 
     }
     ::-webkit-scrollbar-thumb {  /* Handle */
-    background: orange; 
+    background: #59220B; 
     }
     ::-webkit-scrollbar-thumb:hover {  /* Handle on hover */
-    background: gold; 
+    background: #59220ba7; 
     }
 
 /* ---------------------------------------------------------seasoning ad */
