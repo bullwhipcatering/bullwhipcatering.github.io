@@ -602,3 +602,6 @@ header {
     align-items: center;
     justify-content: center;
 }
+h2.extras {
+    font-family: 'Special Elite', cursive;
+}
