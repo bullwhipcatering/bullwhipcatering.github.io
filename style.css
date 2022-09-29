@@ -68,7 +68,7 @@ body, html {
     }
 
 /* ---------------------------------------------------------seasoning ad */
-.seasoning_ad {
+.seasonging_ad {
     background-color: rgba(0, 0, 0, 0.798);
     font-size: 1.25rem;
     color: white;
@@ -76,6 +76,7 @@ body, html {
     padding: 1rem;
     font-family: 'Bebas Neue', cursive;
 }
+
 a.season_ad {
     color: rgb(88, 144, 28);
     text-decoration: none;
@@ -85,6 +86,10 @@ a.season_ad:hover {
     font-weight: bold;
     color: rgb(112, 181, 38);
     font-size: 1.1em;
+}
+
+a {
+    color: white
 }
 
 /* ---------------------------------------------------------white background for logo button */
