@@ -8,7 +8,7 @@ This is a gifted (no charge) updated website for bullwhipcatering.com. Bullwhipc
 
 The original owner of Bullwhip Catering was Cody's grandfather. 
 
-A great part (about 70%) of the original banner (horse, cowboy, whip and lettering) were preserved as both a tribute to Cody's grandfather, as well as a continuation of brand that the community of Casper has known and loved for many years. If you were to know anything about Casper, WY, you should know that it is one of the best preserved pieces of America's West. By that, I mean that nothing ever really changes around there, and they like it that way. So if you are not a fan of the old school style of brand logo, my apologies. However, the actual audience / traffic of the site will find comfort in it.
+A great part (about 70%) of the original banner (horse, cowboy, whip and lettering) was preserved as both a tribute to Cody's grandfather, as well as a continuation of brand that the community of Casper has known and loved for many years. If you were to know anything about Casper, WY, you should know that it is one of the best preserved pieces of America's West. By that, I mean that nothing ever really changes around there, and they like it that way. So if you are not a fan of the old school style of brand logo, my apologies. However, the actual audience / traffic of the site will find comfort in it.
 
 Cody did not have many ideas for the site when I offered to develop the site for him. So, in a weeks time I made about ten variations of sites for Cody to look over, and from there he was able to give me feedback about what he liked about each variation. 
 
