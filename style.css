@@ -88,10 +88,6 @@ a.season_ad:hover {
     font-size: 1.1em;
 }
 
-a {
-    color: white
-}
-
 /* ---------------------------------------------------------white background for logo button */
 .white {
     background: white; /* otherwise the mountains would be black */        
