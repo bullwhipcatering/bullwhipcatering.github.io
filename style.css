@@ -297,6 +297,9 @@ button.title {
     color: white;
     font-family: 'Special Elite', cursive;
 }
+.center {
+    text-align: center;
+}
 
 /* -----------------------------------___MENU / EXTRAS___ */
 /* ---------------------------------------------------------VERTICAL NAV BAR */
