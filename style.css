@@ -120,6 +120,8 @@ nav {
     background-color: white;
     /* background-color: rgb(250, 218, 34); */
     padding: 1rem;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
 
     font-family: 'Roboto Slab', serif;
 }
@@ -144,6 +146,7 @@ a.menu_nav_link:hover {
 }
 
 /* ---------------------------------------------------------auto slideshow */
+
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -211,6 +214,8 @@ to {opacity: 1}
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: .75rem;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
 }
 .payments {
     width: 200px;
