@@ -266,7 +266,7 @@ a.buy_now {
     color: rgb(88, 144, 28);
     text-decoration: none;
     font-size: 2rem;
-    padding-left: 2rem;
+    padding-right: 2rem;
 }
 a.buy_now:hover {
     font-size: 1.5rem;
