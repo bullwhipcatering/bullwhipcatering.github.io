@@ -219,10 +219,10 @@ to {opacity: 1}
 /* ------------------------------------------___INDEX____ */
 /* ---------------------------------------------------------BOOK US*/
 nav.book_us{
-    background-color: #FAE124;
+    background-color: black;
 }
 a.bookus {
-    color: black;
+    color: #FAE124;
     text-decoration: none;
     font-size: 2rem;
 }
@@ -230,7 +230,7 @@ a.bookus:hover {
     font-size: 1.5rem;
 }
 a.bookus_catering {
-    color: black;
+    color: #FAE124;
     text-decoration: none;
     font-size: 2rem;
     padding: 1rem;
